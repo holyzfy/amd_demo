@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>detail</title>
+<!--#include virtual="inc/head_static.html"-->
+<link rel="stylesheet" href="style/detail.css">
+</head>
+<body>
+<div class="wrap">
+    <h1>detail demo</h1>
+    <div id="content"></div>
+
+    <script id="tmpl_content" type="text/html">
+    <p>{{message}}</p>
+    </script>
+    <!--#include virtual="inc/foot_static.html"-->
+</div>
+
+<script>
+require(['common'], function(common) {
+    require(['detail'], function(detail) {
+        detail.start();
+    });
+});
+</script>
+</body>
+</html>

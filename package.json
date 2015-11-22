@@ -1,0 +1,16 @@
+{
+  "name": "amd_demo",
+  "version": "0.1.0",
+  "description": "Example RequireJS-based project",
+  "scripts": {
+    "build": "node ./node_modules/requirejs/bin/r.js -o build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://holyzfy@bitbucket.org/holyzfy/amd_demo.git"
+  },
+  "author": "holyzfy <zhaofuyun202@gmail.com>",
+  "dependencies": {
+    "requirejs": "^2.1.22"
+  }
+}

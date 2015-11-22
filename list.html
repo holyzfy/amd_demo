@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>list</title>
+<!--#include virtual="inc/head_static.html"-->
+<link rel="stylesheet" href="style/list.css">
+</head>
+<body>
+<div class="wrap">
+    <h1>list demo</h1>
+    <div id="content"></div>
+
+    <script id="tmpl_content" type="text/html">
+    <ul>
+        {{each list}}
+            <li><a href="detail.html">{{$value}}</a></li>
+        {{/each}}
+    </ul>
+    </script>
+    <!--#include virtual="inc/foot_static.html"-->
+</div>
+
+<script>
+require(['common'], function(common) {
+    require(['list'], function(list) {
+        list.start();
+    });
+});
+</script>
+</body>
+</html>

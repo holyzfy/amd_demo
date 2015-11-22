@@ -1,0 +1,111 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body,
+button,
+input,
+select,
+textarea {
+  font: 14px/1.5 '微软雅黑', arial, sans-serif;
+}
+body {
+  background-color: #fff;
+  color: #333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+address,
+cite,
+em,
+b,
+i {
+  font-style: normal;
+}
+small {
+  font-size: 14px;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  outline: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+input,
+textarea {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  outline: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th {
+  text-align: left;
+  font-weight: normal;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.wrap {
+  width: 50%;
+  margin: 50px auto;
+}

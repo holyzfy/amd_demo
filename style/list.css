@@ -1,0 +1,12 @@
+h1 {
+  margin-bottom: 10px;
+  color: #080;
+  font-size: 30px;
+}
+ul {
+  font-size: 14px;
+}
+ul a {
+  color: #1BA1E2;
+  text-decoration: underline;
+}
