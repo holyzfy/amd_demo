@@ -1,0 +1,15 @@
+{
+    "build": "./build.js",
+    "ignore": [
+        "node_modules",
+        "build",
+        "build.js",
+        "test"
+    ],
+    "development": {
+        "publicPath": "//static.f2e.example.com/assets/amd_demo"
+    },
+    "production": {
+        "publicPath": "//static.f2e.examplecdn.com/assets/amd_demo"
+    }
+}
