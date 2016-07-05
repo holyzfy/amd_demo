@@ -1,4 +1,4 @@
-var require = ({
+var require = {
     waitSeconds: 0,
     baseUrl: 'js',
     paths: {
@@ -12,4 +12,4 @@ var require = ({
             exports: 'url'
         }
     }
-});
+};
