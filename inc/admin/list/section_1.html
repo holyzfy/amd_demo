@@ -1,0 +1,10 @@
+<section id="part_1" class="part_1"></section>
+<script>
+require(['common'], function () {
+    require(['admin/list'], function () {
+        require(['admin/list/section_1'], function (module) {
+            module.start('#part_1');
+        });
+    });
+});
+</script>
