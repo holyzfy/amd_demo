@@ -1,4 +1,4 @@
-require.config({
+var require = ({
     waitSeconds: 0,
     baseUrl: 'js',
     paths: {
