@@ -1,0 +1,112 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font: 14px/1.5 'Heiti SC', 'Microsoft Yahei', '宋体', sans-serif;
+}
+body {
+    min-width: 1300px;
+}
+body, a {
+    color: #4A4A4A;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+address, cite, em, b, i {
+    font-style: normal;
+}
+small {
+    font-size: 12px;
+}
+ul, ol {list-style: none;
+}
+a {
+    text-decoration: none;
+    outline: 0;
+}
+fieldset, img {
+    border: 0;
+}
+button, input, select, textarea {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+button {
+    cursor: pointer;
+    outline: 0;
+}
+select {
+    background: none;
+}
+input, textarea {
+    background-color: #fff;
+    outline: 0;
+}
+.disabled,
+[disabled] {
+    background-color: #ededed !important;
+    color: #ccc !important;
+    cursor: default !important;
+}
+
+input[type='file'] {
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th {
+    font-weight: normal;
+}
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.pull_left {
+    float: left;
+}
+.pull_right {
+    float: right;
+}
+.clearfix:after {
+    content: ".";
+    display: block; 
+    clear: both; 
+    height: 0; 
+    font-size: 0; 
+    visibility: hidden;
+}
+.clearfix{
+    zoom: 1;
+}
+
+[class^=col_] {
+    float: left;
+    box-sizing: border-box;
+}
+@for $i from 1 through 12 {
+    .col_#{$i} {
+        width: percentage($i / 12);
+    }
+}
+.text_left {
+    text-align: left;
+}
+.text_right {
+    text-align: right;
+}
+.text_center {
+    text-align: center;
+
+}
+::-webkit-search-cancel-button {
+    -webkit-appearance:none;
+}
+.wrap {
+    width: 50%;
+    margin: 50px auto;
+}

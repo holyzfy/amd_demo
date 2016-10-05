@@ -1,96 +1,98 @@
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-p,
-blockquote,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-pre,
-form,
-fieldset,
-legend,
-button,
-input,
-textarea,
-th,
-td {
+@charset "UTF-8";
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
   margin: 0;
   padding: 0;
 }
-body,
-button,
-input,
-select,
-textarea {
-  font: 14px/1.5 '微软雅黑', arial, sans-serif;
+
+body, button, input, select, textarea {
+  font: 14px/1.5 'Heiti SC', 'Microsoft Yahei', '宋体', sans-serif;
 }
+
 body {
-  background-color: #fff;
-  color: #333;
+  min-width: 1300px;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+body, a {
+  color: #4A4A4A;
+}
+
+h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: normal;
 }
-address,
-cite,
-em,
-b,
-i {
+
+address, cite, em, b, i {
   font-style: normal;
 }
+
 small {
-  font-size: 14px;
+  font-size: 12px;
 }
-ul,
-ol {
+
+ul, ol {
   list-style: none;
 }
+
 a {
-  color: #333;
   text-decoration: none;
   outline: 0;
 }
-fieldset,
-img {
+
+fieldset, img {
   border: 0;
 }
-button,
-input,
-select,
-textarea {
+
+button, input, select, textarea {
+  box-sizing: border-box;
   font-size: 100%;
 }
-input,
-textarea {
-  padding: 5px;
-  border: 1px solid #ccc;
+
+button {
+  cursor: pointer;
+  outline: 0;
+}
+
+select {
+  background: none;
+}
+
+input, textarea {
   background-color: #fff;
   outline: 0;
 }
+
+.disabled,
+[disabled] {
+  background-color: #ededed !important;
+  color: #ccc !important;
+  cursor: default !important;
+}
+
+input[type='file'] {
+  cursor: pointer;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-caption,
-th {
-  text-align: left;
+
+caption, th {
   font-weight: normal;
 }
+
+article, aside, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+.pull_left {
+  float: left;
+}
+
+.pull_right {
+  float: right;
+}
+
 .clearfix:after {
   content: ".";
   display: block;
@@ -99,12 +101,80 @@ th {
   font-size: 0;
   visibility: hidden;
 }
+
 .clearfix {
   zoom: 1;
 }
+
+[class^=col_] {
+  float: left;
+  box-sizing: border-box;
+}
+
+.col_1 {
+  width: 8.33333%;
+}
+
+.col_2 {
+  width: 16.66667%;
+}
+
+.col_3 {
+  width: 25%;
+}
+
+.col_4 {
+  width: 33.33333%;
+}
+
+.col_5 {
+  width: 41.66667%;
+}
+
+.col_6 {
+  width: 50%;
+}
+
+.col_7 {
+  width: 58.33333%;
+}
+
+.col_8 {
+  width: 66.66667%;
+}
+
+.col_9 {
+  width: 75%;
+}
+
+.col_10 {
+  width: 83.33333%;
+}
+
+.col_11 {
+  width: 91.66667%;
+}
+
+.col_12 {
+  width: 100%;
+}
+
+.text_left {
+  text-align: left;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.text_center {
+  text-align: center;
+}
+
 ::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
+
 .wrap {
   width: 50%;
   margin: 50px auto;

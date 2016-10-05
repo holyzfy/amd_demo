@@ -6,6 +6,11 @@
         "build.js",
         "test"
     ],
+    "jsnext": {
+        "src": "jsnext",
+        "output": "js",
+        "ignore": ["jsnext/lib", "jsnext/config.js"]
+    },
     "development": {
         "publicPath": "//static.f2e.example.com/assets/amd_demo"
     },

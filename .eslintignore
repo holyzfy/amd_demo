@@ -1,0 +1,6 @@
+/jsnext/lib/
+/build/
+/build.js
+
+# 忽略vm的模拟数据
+/*.js

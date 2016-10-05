@@ -3,12 +3,10 @@ var require = {
     baseUrl: 'js',
     paths: {
         jquery: 'lib/jquery',
-        template: 'lib/template',
-        text: 'lib/text',
-        url: 'lib/url'
+        text: 'lib/text'
     },
     shim: {
-        url: {
+        'lib/url': {
             exports: 'url'
         }
     }

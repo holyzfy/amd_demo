@@ -5,7 +5,7 @@
     inlineText: true,
     optimize: 'none',
     optimizeCss: 'none',
-    fileExclusionRegExp: /^\.|node_modules|test|build(?:\.js)?$/,
+    fileExclusionRegExp: /^\.|node_modules|jsnext|test|build(?:\.js)?$/,
     modules: [
         {
             name: 'common',
@@ -13,7 +13,7 @@
                 'jquery',
                 'template',
                 'text',
-                'url',
+                'lib/url',
                 'common'
             ]
         },
@@ -32,7 +32,6 @@
         {
             name: 'admin/list',
             include: [
-                // 把期望合并到一起，并且不属于admin/list.js的依赖的文件明确包含进来
                 'admin/list/section_1',
                 'admin/list/section_2'
             ],
