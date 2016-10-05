@@ -5,6 +5,7 @@
 ## 安装
 
 0. 运行`npm install`
+0. 运行`npm run jsnext`
 0. 请在静态服务器里查看效果（需支持SSI）
 
 ## 本地构建
