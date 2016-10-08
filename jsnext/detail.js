@@ -1,6 +1,5 @@
 import $ from 'jquery';
 import template from 'template';
-import common from 'common';
 
 function detail() {
     const data = {
@@ -14,6 +13,6 @@ function start() {
     $(() => detail());
 }
 
-export default {
+export {
     start
 };

@@ -4,6 +4,6 @@ function start(selector) {
     $(selector).html('section one');
 }
 
-export default {
+export {
     start
 };

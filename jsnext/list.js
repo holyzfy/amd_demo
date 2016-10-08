@@ -1,6 +1,6 @@
 import $ from 'jquery';
 import template from 'template';
-import common from 'common';
+import {Tip} from 'common';
 
 function list() {
     const data = [
@@ -16,10 +16,10 @@ function list() {
 function start() {
     $(() => {
         list();
-        common.Tip.alert('hello list');
+        Tip.alert('hello list');
     });
 }
 
-export default {
+export {
     start
 };

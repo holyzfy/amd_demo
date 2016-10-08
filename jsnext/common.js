@@ -1,6 +1,6 @@
 const Tip = {};
 Tip.alert = alert.bind(window);
 
-export default {
+export {
     Tip
 };
