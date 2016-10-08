@@ -14,10 +14,8 @@ function list() {
 }
 
 function start() {
-    $(() => {
-        list();
-        Tip.alert('hello list');
-    });
+    list();
+    Tip.alert('hello list');
 }
 
 export {

@@ -10,7 +10,7 @@ function detail() {
 }
 
 function start() {
-    $(() => detail());
+    detail();
 }
 
 export {
