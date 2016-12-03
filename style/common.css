@@ -8,10 +8,6 @@ body, button, input, select, textarea {
   font: 14px/1.5 'Heiti SC', 'Microsoft Yahei', '宋体', sans-serif;
 }
 
-body {
-  min-width: 1300px;
-}
-
 body, a {
   color: #4A4A4A;
 }
