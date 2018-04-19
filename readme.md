@@ -1,5 +1,7 @@
 # amd_demo
 
+# DEPRECATED. Use https://github.com/holyzfy/jsnext instead.
+
 演示[AMD](http://requirejs.org/)规范的用法
 
 ## 安装
